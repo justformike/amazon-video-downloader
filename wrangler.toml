@@ -1,0 +1,10 @@
+name = "amazon-video-api"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[kv_namespaces]]
+binding = "VIDEO_STORE"
+id = "504bc9360a4540919df9026d3ffc37f6"
